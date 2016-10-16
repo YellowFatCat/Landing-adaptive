@@ -1,0 +1,332 @@
+﻿@font-face {
+	font-family: Lato;
+	src: url("../fonts/Lato-Lig.ttf");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Lato;
+	src: url("../fonts/Lato-Reg.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Lato;
+	src: url("../fonts/Lato-Bol.ttf");
+	font-weight: bold;
+	font-style: normal;
+}
+
+header {
+	padding-top: 21px;
+	background-image: url("../images/main.jpg");
+	background-size: cover;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+	line-height: 57px;
+}
+
+.nav > li > a {
+	font-family: Lato;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+}
+
+.nav > li > a:hover {
+	color: #fff;
+	opacity: 0.8;
+	background: none;
+}
+
+.nav > li > a:focus {
+	color: #fff;
+	background: none;
+}
+
+header h2 {
+	font-family: "Times New Roman";
+	font-weight: bold;
+	font-style: italic;
+	color: rgba( 255, 255, 255, 0.702 );
+	text-align: center;
+	font-size: 36px;
+	margin: 0;
+	text-transform: none;
+}
+
+header h1 {
+	font-family: Lato;
+	font-weight: bold;
+	font-size: 100px;
+	text-align: center;
+	margin: 0;
+}
+
+header .btn-header {
+	font-family: Lato;
+	font-weight: bold;
+	font-size: 18px;
+	background: none;
+	border: 3px solid #fff;
+	border-radius: 3px;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	height: 68px;
+	width: 280px;
+	margin: 40px 0;
+}
+
+header .btn-header:hover {
+	color: #fff;
+	border-width: 4px;
+}
+
+header .btn-header:focus {
+	color: #fff;
+}
+
+.main {
+	text-align: center;
+}
+
+.subtitle {
+	font-family: Lato;
+	font-weight: normal;
+	font-size: 14px;
+	margin-bottom: 240px;
+}
+
+strong {
+	text-decoration: underline;
+}
+
+h3 {
+	color: #000;
+	font-family: Lato;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+.capabilities {
+	padding-bottom: 95px;
+}
+
+.capabilities__item {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.item {
+	margin-bottom: 20px;
+}
+
+.mobile-app {
+	background-color: #f7f7f7;
+	padding-top: 102px;
+}
+
+.col-text {
+	padding-top: 80px;
+}
+
+.sprites {
+	font-size: 0;
+}
+
+.sprite {
+	background-image: url("../images/sprite.png");
+	height: 39px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.sprite:hover {
+	opacity: 0.9;
+}
+
+.text {
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 37px;
+	line-height: 1.125;
+	color: #000;
+}
+
+.appstore {
+  background-position: top left;
+  width: 112px;
+}
+
+.google-play {
+	background-position: top right;
+	width: 120px;
+}
+
+.browse {
+	padding-top: 100px;
+	text-align: center;
+}
+
+.col-xs-1-5,
+.col-sm-1-5,
+.col-md-1-5,
+.col-lg-1-5 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+ 
+.col-xs-1-5 {
+  width: 20%;
+  float: left;
+}
+ 
+@media (min-width: 768px) {
+  .col-sm-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+ 
+@media (min-width: 992px) {
+  .col-md-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+ 
+@media (min-width: 1200px) {
+  .col-lg-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+
+.cuisines {
+	margin-top: 20px;
+}
+
+.cuisine {
+	height: 225px;
+	background-size: cover;
+	font-family: "Times New Roman";
+	font-size: 16px;
+	color: rgba(255, 255, 255, 0.9);
+	font-style: italic;
+	padding-top: 75px;
+	font-weight: bold;
+}
+
+.cuisine p {
+	margin: 0;
+}
+
+.browse h4 {
+	font-size: 36px;
+	font-family: Lato;
+	text-transform: uppercase;	
+	color: #fff;
+	font-style: normal;
+	margin: 5px 0;
+}
+
+.italian {
+	background-image: url("../images/cuisines/italian.png");
+}
+
+.indian {
+	background-image: url("../images/cuisines/indian.png");
+}
+
+.french {
+	background-image: url("../images/cuisines/french.png");
+}
+
+.steakhouse {
+	background-image: url("../images/cuisines/steakhouse.png");
+}
+
+.seafood {
+	background-image: url("../images/cuisines/seafood.png");
+}
+
+.sushi {
+	background-image: url("../images/cuisines/sushi.png");
+}
+
+.mexican {
+	background-image: url("../images/cuisines/mexican.png");
+}
+
+.chinese {
+	background-image: url("../images/cuisines/chinese.png");
+}
+
+.pizza {
+	background-image: url("../images/cuisines/pizza.png");
+}
+
+.american {
+	background-image: url("../images/cuisines/american.png");
+}
+
+.statistics {
+	font-family: Lato;
+	color: #000;
+	font-size: 16px;
+	font-weight: 300;
+	text-align: center;
+	padding: 60px 0;
+}
+
+.statistics h4 {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.footer {
+	background-color: #f7f7f7;
+	border-top: #e2e2e2 solid 1px;
+	font-family: Lato;
+	font-size: 14px;
+	color: #8b8b8b;
+	font-weight: 300;
+	padding: 40px 0;
+	line-height: 1;
+}
+
+.footer p {
+	margin: 0;
+}
+
+.designer {
+	text-transform: uppercase;
+	text-align: right;
+}
+
+.footer strong {
+	text-decoration: none;
+	color: #000;
+	font-weight: normal;
+}
+
+hr {
+	width: 88px;
+	margin: 0 auto 20px;
+	border-top-color: #f57365;
+}
+
+.mobile-app hr {
+	margin-left: 0;
+}
